@@ -1,0 +1,27 @@
+body{
+   background-image: url(assets/night-1.jpg);
+   background-position: center;
+   background-size: cover;
+   background-repeat: no-repeat;
+   background-attachment: fixed;
+   margin: 0;
+   display: flex;
+   justify-content:center ;
+   min-height: 100vh;
+   align-items: center;
+
+}
+.clock-container{
+  backdrop-filter: blur(10px);
+  padding: 10px 0px;
+
+    
+}
+.clock{
+  font-size: 6em;
+  color: rgb(201, 195, 195);
+  font-weight: bold;
+  text-shadow: 3px 3px 5px black;
+  text-align: center;
+
+}
